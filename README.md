@@ -3,8 +3,12 @@
   title: hpsr
 ---
   
-  # hpsr: An R data Package to install Household Pulse Survey Datasets
-  This is hpsr R data package.
+# <a href='https://github.com/prasadbhoite/hpsr'><img src="man/figures/logo.png" align="right" height="139" alt="" /></a> 
+hpsr: An R data Package to install Household Pulse Survey Datasets
+This is hpsr R data package.
+
+
+
 
 **Author:** Prasad Bhoite
 
