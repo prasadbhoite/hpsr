@@ -88,3 +88,53 @@ save(data_week8, file = "data/data_week8.rda", compress='xz')
 #Document the Week 8 dataset below:
 usethis::use_r("data_week8")
 #devtools::document()
+
+# Week 9:
+parquet_url_week9 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/09.Week9_06.25.20_06.30.20/HPS_week9_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week9 <- arrow::read_parquet(parquet_url_week9)
+save(data_week9, file = "data/data_week9.rda", compress='xz')
+
+#Document the Week 9 dataset below:
+usethis::use_r("data_week9")
+#devtools::document()
+
+# Week 10:
+parquet_url_week10 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/10.Week10_07.02.20_07.07.20/HPS_week10_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week10 <- arrow::read_parquet(parquet_url_week10)
+save(data_week10, file = "data/data_week10.rda", compress='xz')
+
+#Document the Week 10 dataset below:
+usethis::use_r("data_week10")
+#devtools::document()
+
+# Week 11:
+parquet_url_week11 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/11.Week11_07.09.20_07.14.20/HPS_week11_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week11 <- arrow::read_parquet(parquet_url_week11)
+save(data_week11, file = "data/data_week11.rda", compress='xz')
+
+#Document the Week 11 dataset below:
+usethis::use_r("data_week11")
+#devtools::document()
+
+# Week 12:
+parquet_url_week12 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/12.Week12_07.16.20_07.21.20/HPS_week12_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week12 <- arrow::read_parquet(parquet_url_week12)
+save(data_week12, file = "data/data_week12.rda", compress='xz')
+
+#Document the Week 12 dataset below:
+usethis::use_r("data_week12")
+#devtools::document()
+
+# Week 13:
+parquet_url_week13 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/13.Week13_08.19.20_08.31.20/HPS_week13_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week13 <- arrow::read_parquet(parquet_url_week13)
+save(data_week13, file = "data/data_week13.rda", compress='xz')
+
+#Document the Week 13 dataset below:
+usethis::use_r("data_week13")
+#devtools::document()
