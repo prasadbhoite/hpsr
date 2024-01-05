@@ -23,3 +23,18 @@ You can download the latest development version from `Github` using following co
   ```r
 devtools::install_github('prasadbhoite/hpsr')
 ```
+
+
+## Usage
+Get started with `hpsr` using following command:
+  
+  ```r
+hpsr::data('data_week1')
+```
+
+## Code of Conduct
+
+Please note that the brickset project is released with a [Contributor
+Code of
+Conduct](https://prasadbhoite.github.io/hpsr/CODE_OF_CONDUCT.html). By
+contributing to this project, you agree to abide by its terms.
