@@ -1,0 +1,7 @@
+@Manual{,
+  title = {hpsr},
+  author = {Prasad Bhoite and Christopher Clark and Krupa Patel and Rachel Clarke and Nana Aisha Garba},
+  year = {2023},
+  note = {R package version 0.0.9},
+  url = {https://prasadbhoite.github.io/hpsr/},
+}
