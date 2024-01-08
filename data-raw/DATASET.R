@@ -339,3 +339,303 @@ save(data_week33, file = "data/data_week33.rda", compress='xz')
 #Document the Week 33 dataset below:
 usethis::use_r("data_week33")
 #devtools::document()
+
+# Week 34:
+parquet_url_week34 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/34.Week34_07.21.21_08.02.21/HPS_week34_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week34 <- arrow::read_parquet(parquet_url_week34)
+save(data_week34, file = "data/data_week34.rda", compress='xz')
+
+#Document the Week 34 dataset below:
+usethis::use_r("data_week34")
+#devtools::document()
+
+# Week 35:
+parquet_url_week35 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/35.Week35_08.04.21_08.16.21/HPS_week35_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week35 <- arrow::read_parquet(parquet_url_week35)
+save(data_week35, file = "data/data_week35.rda", compress='xz')
+
+#Document the Week 35 dataset below:
+usethis::use_r("data_week35")
+#devtools::document()
+
+# Week 36:
+parquet_url_week36 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/36.Week36_08.18.21_08.30.21/HPS_week36_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week36 <- arrow::read_parquet(parquet_url_week36)
+save(data_week36, file = "data/data_week36.rda", compress='xz')
+
+#Document the Week 36 dataset below:
+usethis::use_r("data_week36")
+#devtools::document()
+
+# Week 37:
+parquet_url_week37 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/37.Week37_09.01.21_09.13.21/HPS_week37_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week37 <- arrow::read_parquet(parquet_url_week37)
+save(data_week37, file = "data/data_week37.rda", compress='xz')
+
+#Document the Week 37 dataset below:
+usethis::use_r("data_week37")
+#devtools::document()
+
+# Week 38:
+parquet_url_week38 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/38.Week38_09.15.21_09.27.21/HPS_week38_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week38 <- arrow::read_parquet(parquet_url_week38)
+save(data_week38, file = "data/data_week38.rda", compress='xz')
+
+#Document the Week 38 dataset below:
+usethis::use_r("data_week38")
+#devtools::document()
+
+# Week 39:
+parquet_url_week39 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/39.Week39_09.29.21_10.11.21/HPS_week39_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week39 <- arrow::read_parquet(parquet_url_week39)
+save(data_week39, file = "data/data_week39.rda", compress='xz')
+
+#Document the Week 39 dataset below:
+usethis::use_r("data_week39")
+#devtools::document()
+
+# Week 40:
+parquet_url_week40 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/40.Week40_12.01.21_12.13.21/HPS_week40_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week40 <- arrow::read_parquet(parquet_url_week40)
+save(data_week40, file = "data/data_week40.rda", compress='xz')
+
+#Document the Week 40 dataset below:
+usethis::use_r("data_week40")
+#devtools::document()
+
+# Week 41:
+parquet_url_week41 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/41.Week41_12.29.21_01.10.22/HPS_week41_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week41 <- arrow::read_parquet(parquet_url_week41)
+save(data_week41, file = "data/data_week41.rda", compress='xz')
+
+#Document the Week 41 dataset below:
+usethis::use_r("data_week41")
+#devtools::document()
+
+# Week 42:
+parquet_url_week42 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/42.Week42_01.26.22_02.07.22/HPS_week42_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week42 <- arrow::read_parquet(parquet_url_week42)
+save(data_week42, file = "data/data_week42.rda", compress='xz')
+
+#Document the Week 42 dataset below:
+usethis::use_r("data_week42")
+#devtools::document()
+
+# Week 43:
+parquet_url_week43 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/43.Week43_03.02.22_03.14.22/HPS_week43_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week43 <- arrow::read_parquet(parquet_url_week43)
+save(data_week43, file = "data/data_week43.rda", compress='xz')
+
+#Document the Week 43 dataset below:
+usethis::use_r("data_week43")
+#devtools::document()
+
+# Week 44:
+parquet_url_week44 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/44.Week44_03.30.22_04.11.22/HPS_week44_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week44 <- arrow::read_parquet(parquet_url_week44)
+save(data_week44, file = "data/data_week44.rda", compress='xz')
+
+#Document the Week 44 dataset below:
+usethis::use_r("data_week44")
+#devtools::document()
+
+# Week 45:
+parquet_url_week45 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/45.Week45_04.27.22_05.09.22/HPS_week45_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week45 <- arrow::read_parquet(parquet_url_week45)
+save(data_week45, file = "data/data_week45.rda", compress='xz')
+
+#Document the Week 45 dataset below:
+usethis::use_r("data_week45")
+#devtools::document()
+
+# Week 46:
+parquet_url_week46 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/46.Week46_06.01.22_06.13.22/HPS_week46_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week46 <- arrow::read_parquet(parquet_url_week46)
+save(data_week46, file = "data/data_week46.rda", compress='xz')
+
+#Document the Week 46 dataset below:
+usethis::use_r("data_week46")
+#devtools::document()
+
+# Week 47:
+parquet_url_week47 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/47.Week47_06.29.22_07.11.22/HPS_week47_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week47 <- arrow::read_parquet(parquet_url_week47)
+save(data_week47, file = "data/data_week47.rda", compress='xz')
+
+#Document the Week 47 dataset below:
+usethis::use_r("data_week47")
+#devtools::document()
+
+# Week 48:
+parquet_url_week48 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/48.Week48_07.28.22_08.08.22/HPS_week48_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week48 <- arrow::read_parquet(parquet_url_week48)
+save(data_week48, file = "data/data_week48.rda", compress='xz')
+
+#Document the Week 48 dataset below:
+usethis::use_r("data_week48")
+#devtools::document()
+
+# Week 49:
+parquet_url_week49 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/49.Week49_09.14.22_09.28.22/HPS_week49_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week49 <- arrow::read_parquet(parquet_url_week49)
+save(data_week49, file = "data/data_week49.rda", compress='xz')
+
+#Document the Week 49 dataset below:
+usethis::use_r("data_week49")
+#devtools::document()
+
+# Week 50:
+parquet_url_week50 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/50.Week50_10.05.22_10.17.22/HPS_week50_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week50 <- arrow::read_parquet(parquet_url_week50)
+save(data_week50, file = "data/data_week50.rda", compress='xz')
+
+#Document the Week 50 dataset below:
+usethis::use_r("data_week50")
+#devtools::document()
+
+# Week 51:
+parquet_url_week51 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/51.Week51_11.02.22_11.14.22/HPS_week51_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week51 <- arrow::read_parquet(parquet_url_week51)
+save(data_week51, file = "data/data_week51.rda", compress='xz')
+
+#Document the Week 51 dataset below:
+usethis::use_r("data_week51")
+#devtools::document()
+
+# Week 52:
+parquet_url_week52 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/52.Week52_12.09.22_12.19.22/HPS_week52_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week52 <- arrow::read_parquet(parquet_url_week52)
+save(data_week52, file = "data/data_week52.rda", compress='xz')
+
+#Document the Week 52 dataset below:
+usethis::use_r("data_week52")
+#devtools::document()
+
+# Week 53:
+parquet_url_week53 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/53.Week53_01.04.23_01.16.23/HPS_week53_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week53 <- arrow::read_parquet(parquet_url_week53)
+save(data_week53, file = "data/data_week53.rda", compress='xz')
+
+#Document the Week 53 dataset below:
+usethis::use_r("data_week53")
+#devtools::document()
+
+# Week 54:
+parquet_url_week54 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/54.Week54_02.01.23_02.13_23/HPS_week54_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week54 <- arrow::read_parquet(parquet_url_week54)
+save(data_week54, file = "data/data_week54.rda", compress='xz')
+
+#Document the Week 54 dataset below:
+usethis::use_r("data_week54")
+#devtools::document()
+
+# Week 55:
+parquet_url_week55 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/55.Week55_03.01.23_03.13.23/HPS_week55_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week55 <- arrow::read_parquet(parquet_url_week55)
+save(data_week55, file = "data/data_week55.rda", compress='xz')
+
+#Document the Week 55 dataset below:
+usethis::use_r("data_week55")
+#devtools::document()
+
+# Week 56:
+parquet_url_week56 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/56.Week56_03.29.23_04.10.23/HPS_week56_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week56 <- arrow::read_parquet(parquet_url_week56)
+save(data_week56, file = "data/data_week56.rda", compress='xz')
+
+#Document the Week 56 dataset below:
+usethis::use_r("data_week56")
+#devtools::document()
+
+# Week 57:
+parquet_url_week57 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/57.Week57_04.26.23_05.08.23/HPS_week57_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week57 <- arrow::read_parquet(parquet_url_week57)
+save(data_week57, file = "data/data_week57.rda", compress='xz')
+
+#Document the Week 57 dataset below:
+usethis::use_r("data_week57")
+#devtools::document()
+
+# Week 58:
+parquet_url_week58 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/58.Week58_06.07.23_06.19.23/HPS_week58_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week58 <- arrow::read_parquet(parquet_url_week58)
+save(data_week58, file = "data/data_week58.rda", compress='xz')
+
+#Document the Week 58 dataset below:
+usethis::use_r("data_week58")
+#devtools::document()
+
+# Week 59:
+parquet_url_week59 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/59.Week59_06.28.23_07.10.23/HPS_week59_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week59 <- arrow::read_parquet(parquet_url_week59)
+save(data_week59, file = "data/data_week59.rda", compress='xz')
+
+#Document the Week 59 dataset below:
+usethis::use_r("data_week59")
+#devtools::document()
+
+# Week 60:
+parquet_url_week60 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/60.Week60_07.26.23_08.07.23/HPS_week60_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week60 <- arrow::read_parquet(parquet_url_week60)
+save(data_week60, file = "data/data_week60.rda", compress='xz')
+
+#Document the Week 60 dataset below:
+usethis::use_r("data_week60")
+#devtools::document()
+
+# Week 61:
+parquet_url_week61 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/61.Week61_08.23.23_09.04.23/HPS_week61_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week61 <- arrow::read_parquet(parquet_url_week61)
+save(data_week61, file = "data/data_week61.rda", compress='xz')
+
+#Document the Week 61 dataset below:
+usethis::use_r("data_week61")
+#devtools::document()
+
+# Week 62:
+parquet_url_week62 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/62.Week62_09.20.23_10.02.23/HPS_week62_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week62 <- arrow::read_parquet(parquet_url_week62)
+save(data_week62, file = "data/data_week62.rda", compress='xz')
+
+#Document the Week 62 dataset below:
+usethis::use_r("data_week62")
+#devtools::document()
+
+# Week 63:
+parquet_url_week63 <- "https://github.com/prasadbhoite/HPS_PUF/raw/main/Data/63.Week63_10.18.23_10.30.23/HPS_week63_data_parquet.parquet"
+# Read the Parquet file into a data frame
+data_week63 <- arrow::read_parquet(parquet_url_week63)
+save(data_week63, file = "data/data_week63.rda", compress='xz')
+
+#Document the Week 63 dataset below:
+usethis::use_r("data_week63")
+#devtools::document()
