@@ -35,10 +35,12 @@ Imports:
     arrow,
     magrittr
 Suggests: 
+    testthat (>= 3.0.0),
     tidyverse
 URL: https://github.com/prasadbhoite/hpsr
 BugReports: https://github.com/prasadbhoite/hpsr/issues
 Depends: 
     R (>= 2.10)
 LazyData: true
-LazyDataCompression:xz
+LazyDataCompression: xz
+Config/testthat/edition: 3
