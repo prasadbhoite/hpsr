@@ -35,8 +35,6 @@ Imports:
     arrow,
     magrittr
 Suggests: 
-    knitr,
-    rmarkdown,
     testthat (>= 3.0.0),
     tidyverse
 URL: https://github.com/prasadbhoite/hpsr
@@ -46,4 +44,3 @@ Depends:
 LazyData: true
 LazyDataCompression: xz
 Config/testthat/edition: 3
-VignetteBuilder: knitr
