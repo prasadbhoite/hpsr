@@ -3,7 +3,7 @@
   title: hpsr
 ---
   
-# <a href='https://github.com/prasadbhoite/hpsr'><img src="man/figures/hpsr_url.png" align="right" height="139" alt="" /></a>hpsr: An R data Package to install Household Pulse Survey Datasets. 
+# <a href='https://github.com/prasadbhoite/hpsr'><img src="man/figures/hpsr_url.png" align="right" height="80" alt="" /></a>hpsr: An R Data Package to Install Household Pulse Survey Datasets. 
 
 <!-- badges: start -->
 [![ORCiD:0000-0003-2548-0066](https://img.shields.io/badge/ORCiD-0000--0003--2548--0066-dodgerblue.svg)](https://orcid.org/0000-0003-2548-0066)
@@ -16,9 +16,10 @@
 
 **Author:** Prasad Bhoite
 
+**Website:** https://prasadbhoite.github.io/hpsr/
   
-  ## Overview
-  This package provides week 1 through week 63 [Household Pulse Survey](https://www.census.gov/data/experimental-data-products/household-pulse-survey.html) datatasets.
+## Overview
+This package provides week 1 through week 63 [Household Pulse Survey](https://www.census.gov/data/experimental-data-products/household-pulse-survey.html) datatasets.
 
 ## Installation
 You can download the latest development version from `Github` using following command:
