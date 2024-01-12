@@ -3,15 +3,13 @@
   title: hpsr
 ---
   
-# <a href='https://github.com/prasadbhoite/hpsr'><img src="man/figures/hpsr_url.png" align="right" height="139" alt="" /></a> 
+# <a href='https://github.com/prasadbhoite/hpsr'><img src="man/figures/hpsr_url.png" align="right" height="139" alt="" /></a>hpsr: An R data Package to install Household Pulse Survey Datasets. 
 
 <!-- badges: start -->
 [![ORCiD:0000-0003-2548-0066](https://img.shields.io/badge/ORCiD-0000--0003--2548--0066-dodgerblue.svg)](https://orcid.org/0000-0003-2548-0066)
  
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
-
-hpsr: An R data Package to install Household Pulse Survey Datasets.
 
 
 
