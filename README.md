@@ -16,7 +16,6 @@
 
 **Author:** Prasad Bhoite
 
-**Website:** https://prasadbhoite.github.io/hpsr/
   
   ## Overview
   This package provides week 1 through week 63 [Household Pulse Survey](https://www.census.gov/data/experimental-data-products/household-pulse-survey.html) datatasets.
