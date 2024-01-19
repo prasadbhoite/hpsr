@@ -33,7 +33,7 @@
     
     <a class="navbar-brand me-2" href="index.html">hpsr</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.0.9000</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -66,13 +66,13 @@
 <div class="row">
   <main id="main" class="col-md-9"><div class="section level1">
 <div class="page-header">
-<img src="logo.png" class="logo" alt=""><h1 id="hpsr-an-r-data-package-to-install-household-pulse-survey-datasets">
-<a href="https://github.com/prasadbhoite/hpsr" class="external-link"><img src="reference/figures/hpsr_url.png" align="right" height="80" alt=""></a>hpsr: An R Data Package to Install Household Pulse Survey Datasets.<a class="anchor" aria-label="anchor" href="#hpsr-an-r-data-package-to-install-household-pulse-survey-datasets"></a>
+<img src="logo.png" class="logo" alt=""><h1 id="hpsr-an-r-data-package-for-effortless-access-to-household-pulse-survey-datasets">
+<a href="https://github.com/prasadbhoite/hpsr" class="external-link"><img src="reference/figures/hpsr_url.png" align="right" height="80" alt=""></a>hpsr: An R Data Package for Effortless Access to Household Pulse Survey Datasets.<a class="anchor" aria-label="anchor" href="#hpsr-an-r-data-package-for-effortless-access-to-household-pulse-survey-datasets"></a>
 </h1>
 </div>
 <!-- badges: start -->
 
-<p><a href="https://lifecycle.r-lib.org/articles/stages.html#experimental" class="external-link"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a> <!-- badges: end --></p>
+<p><a href="https://lifecycle.r-lib.org/articles/stages.html#stable" class="external-link"><img src="https://img.shields.io/badge/lifecycle-stable-brightgreen.svg" alt="Lifecycle: stable"></a> <!-- badges: end --></p>
 <p><strong>Author:</strong> Prasad Bhoite</p>
 <p><strong>Website:</strong> <a href="https://prasadbhoite.github.io/hpsr/" class="external-link uri">https://prasadbhoite.github.io/hpsr/</a></p>
 <div class="section level2">
@@ -85,19 +85,24 @@
 </h2>
 <p>You can download the latest development version from <code>Github</code> using following command:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">'prasadbhoite/hpsr'</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="co"># install.packages("devtools")</span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">'prasadbhoite/hpsr'</span><span class="op">)</span></span></code></pre></div>
+<p>If the above method of installation fails, you can use the following code that additionally specifies git branch and timeout argument.</p>
+<pre><code><span><span class="co"># install.packages("devtools")</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/base/options.html" class="external-link">options</a></span><span class="op">(</span>timeout<span class="op">=</span><span class="fl">400</span><span class="op">)</span></span>
+<span><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">'prasadbhoite/hpsr'</span>, ref <span class="op">=</span> <span class="st">'master'</span><span class="op">)</span></span></code></pre>
 </div>
 <div class="section level2">
 <h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
 </h2>
 <p>Get started with <code>hpsr</code> using following command:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">hpsr</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">'data_week1'</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
 </h2>
-<p>Please note that the brickset project is released with a <a href="https://prasadbhoite.github.io/hpsr/CODE_OF_CONDUCT.html" class="external-link">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
+<p>Please note that the hpsr project is released with a <a href="https://prasadbhoite.github.io/hpsr/CODE_OF_CONDUCT.html" class="external-link">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">

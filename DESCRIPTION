@@ -1,6 +1,6 @@
 Package: hpsr
 Title: Provides each round of Household Pulse Survey data and respective codebooks
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     c(person(given = "Prasad",
            family = "Bhoite",
