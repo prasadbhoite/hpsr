@@ -36,17 +36,35 @@ options(timeout=400)
 devtools::install_github('prasadbhoite/hpsr', ref = 'master')
 ```
 
+<br>
+<br>
 
-## Usage
+## Usage: Datasets
 Get started with `hpsr` using following command:
+
   
-  ```r
+```r
 hpsr::data('data_week1')
+hpsr::data('data_week2')
+hpsr::data('data_week3')
+# ...
+# ...
+# ...
+hpsr::data('data_week63')
+
 ```
+To get the specific week of data, you need to use 'data' function and mention numerical dataset number of the Household Pulse Survey.
+data('data_week_ _')
+
+<br>
+<br>
+
+## Usage: Codebooks
+To get the codebook for the individual datasets, go to the following [link on the package website](https://prasadbhoite.github.io/hpsr/reference/index.html).:
+https://prasadbhoite.github.io/hpsr/reference/index.html
+  
+
 
 ## Code of Conduct
 
-Please note that the hpsr project is released with a [Contributor
-Code of
-Conduct](https://prasadbhoite.github.io/hpsr/CODE_OF_CONDUCT.html). By
-contributing to this project, you agree to abide by its terms.
+Please note that the hpsr project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
