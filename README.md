@@ -13,11 +13,15 @@
 
 
 
-
-**Author:** Prasad Bhoite
-
 **Website:** https://prasadbhoite.github.io/hpsr/
-  
+
+**Authors:** <br>
+1. **Prasad Bhoite** *(Author, Maintainer)* <br>
+2. **Christopher Clark** *(Author)* <br>
+3. **Krupa Patel** *(Contributor)* <br>
+4. **Dr. Rachel Clarke** *(Contributor)* <br>
+5. **Dr. Aisha Nana Garba** *(Contributor)* <br>
+
 ## Overview
 This package provides week 1 through week 63 [Household Pulse Survey](https://www.census.gov/data/experimental-data-products/household-pulse-survey.html) datatasets.
 
